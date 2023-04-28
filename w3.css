@@ -1,0 +1,1088 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'inter';
+    src: url(./Inter/static/Inter-Light.ttf);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.container{
+    width: 100%;
+    position: relative;
+    max-height: 3109px;
+    background: #FFFFFF;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+nav {
+    width: 100%;
+    padding: 0 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #BCFCD5;
+font-style: normal;
+font-family: 'Inter-Se';
+src: url(./Inter/static/Inter-SemiBold.ttf);
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+
+ }
+
+ .menu__logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+ }
+
+ .menu__logo img{
+    width: 60px;
+    height: 60px;
+ }
+
+ .menu__link {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+ }
+
+ .menu__registration{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    background-color: #FFF;
+    border-radius: 10px;
+    width: 136px;
+    height: 44px;
+    border: 1px solid black;
+
+ }
+
+ .menu__registration:hover{
+    cursor: pointer;
+ }
+
+.menu img{
+    position: absolute;
+width: 55px;
+height: 59px;
+left: 198px;
+top: 15px;
+margin-top: 15px;
+}
+.head h2{
+    position: absolute;
+width: 615px;
+height: 160px;
+left: 207px;
+top: 242px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 65px;
+line-height: 79px;
+
+color: #000000;
+}
+.head img{
+    position: absolute;
+width: 530px;
+height: 462.63px;
+left: 730.98px;
+top: 124px;
+
+background: url(ID Card-amico);
+transform: rotate(0.12deg);
+}
+.h1 h3{
+    position: absolute;
+width: 443px;
+height: 40px;
+left: 197px;
+top: 676px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+}
+
+.h1 p{
+    position: absolute;
+width: 1053px;
+height: 78px;
+left: 197px;
+top: 740px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+
+color: #000000;
+}
+.h2 img{
+    position: absolute;
+width: 90px;
+height: 77px;
+left: 280px;
+top: 843px;
+
+background: url(Light bulb-bro);
+}
+.h2 h4{
+    position: absolute;
+width: 316px;
+height: 62px;
+left: 190px;
+top: 949px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+}
+.h2 p{
+    position: absolute;
+width: 316px;
+height: 156px;
+left: 190px;
+top: 1030px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+
+color: #000000;
+}
+.h3 img{
+    position: absolute;
+width: 90px;
+height: 77px;
+left: 280px;
+top: 1238px;
+
+background: url(Light bulb-bro);
+}
+.h3 h4{
+    position: absolute;
+width: 340px;
+height: 37px;
+left: 190px;
+top: 1348px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+
+}
+.h3 p{
+    position: absolute;
+width: 340px;
+height: 248px;
+left: 190px;
+top: 1400px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+
+color: #000000;
+}
+.h4 img{
+    position: absolute;
+width: 90px;
+height: 77px;
+left: 1000px;
+top: 863px;
+
+background: url(Light bulb-bro);
+}
+.h4 h4{
+    position: absolute;
+width: 360px;
+height: 50px;
+left: 890px;
+top: 988px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+
+}
+.h4 p{
+    position: absolute;
+width: 360px;
+height: 314px;
+left: 890px;
+top: 1038px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+
+color: #000000;
+
+}
+.h5 img{
+    position: absolute;
+width: 330px;
+height: 330px;
+left: 550px;
+top: 1100px;
+
+}
+.h6 h3{
+    position: absolute;
+width: 491px;
+height: 52px;
+left: 190px;
+top: 1739px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+
+}
+.filter{
+    position: absolute;
+width: 1060px;
+height: 251px;
+left: 189px;
+    background-color: aquamarine;
+    top: 1904px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #000000;
+    opacity: 0.8    ;
+
+}
+.form label{
+    position: absolute;
+    width: 135px;
+    height: 30px;
+    left: 250px;
+    top: 1904px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #000000;
+    
+
+}
+.form select{
+    position: absolute;
+    width: 145px;
+    height: 36px; 
+    background: #F5F5F5;  
+    left: 369px;
+    top: 1900px;
+
+}
+.form2 label{
+    position: absolute;
+    width: 135px;
+    height: 30px;
+    left: 650px;
+    top: 1904px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #000000;
+    
+}
+.form2 select{
+    position: absolute;
+    width: 145px;
+    height: 36px; 
+    background: #F5F5F5;  
+    left: 730px;
+    top: 1900px;
+}
+.form3 label{
+    position: absolute;
+width: 235px;
+height: 39px;
+left: 250px;
+top: 2021px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+
+color: #000000;
+}
+.form3 select{
+    position: absolute;
+    width: 145px;
+    height: 36px; 
+    background: #F5F5F5;  
+    left: 461px;
+    top: 2015px;
+
+}
+.button button{
+    position: absolute;
+    width: 145px;
+    height: 36px; 
+    background: #F5F5F5;  
+    left: 730px;
+    top: 2015px;
+}
+
+.button buttton:hover {
+    cursor: pointer;
+}
+
+.title h3{
+    position: absolute;
+width: 428px;
+height: 45px;
+left: 192px;
+top: 2173px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+}
+.vcb h4{
+    position: absolute;
+width: 528px;
+height: 44px;
+left: 189px;
+top: 2306px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+
+}
+
+.Vietcombank img{
+    position: absolute;
+width: 303px;
+height: 184px;
+left: 215px;
+top: 2380px;
+
+}
+.hanmuc{
+    position: absolute;
+width: 129px;
+height: 39px;
+left: 650px;
+top: 2370px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+
+
+color: #000000;
+
+}
+.mucthunhap{
+    position: absolute;
+width: 166px;
+height: 42px;
+left: 988px;
+top: 2372px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+
+color: #000000;
+
+}
+.hm1{
+    position: absolute;
+width: 259px;
+height: 50px;
+left: 650px;
+top: 2508px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+
+color: #000000;
+
+}
+.mtn1{
+    position: absolute;
+width: 200px;
+height: 50px;
+left: 1030px;
+top: 2510px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+
+color: #000000;
+}
+.Sacombank h4{
+    position: absolute;
+width: 528px;
+height: 44px;
+left: 187px;
+top: 2775px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+
+}
+.scbimg img{
+    position: absolute;
+width: 303px;
+height: 184px;
+left: 213px;
+top: 2850px;
+
+}
+.hmscb{
+    position: absolute;
+width: 129px;
+height: 39px;
+left: 648px;
+top: 2840px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+
+
+color: #000000;
+
+}
+.mtnscb{
+    position: absolute;
+width: 166px;
+height: 42px;
+left: 986px;
+top: 2842px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+
+
+color: #000000;
+
+}
+.hm2{
+    position: absolute;
+    width: 259px;
+    height: 50px;
+    left: 640px;
+    top: 2978px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #000000;
+    
+}
+.mtn2{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 1020px;
+    top: 2978px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #000000;
+}
+.mbvs h4{
+    position: absolute;
+    width: 429px;
+    height: 44px;
+    left: 191px;
+    top: 3245px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    
+    color: #000000;
+    
+}
+.mbimg img{
+    
+position: absolute;
+width: 303px;
+height: 184px;
+left: 213px;
+top: 3320px;
+}
+.hmmb{
+    position: absolute;
+    width: 129px;
+    height: 39px;
+    left: 652px;
+    top: 3300px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    
+    
+    color: #000000;
+}
+.mtnmb{
+    position: absolute;
+    width: 129px;
+    height: 39px;
+    left: 1020px;
+    top: 3300px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    
+    
+    color: #000000;
+}
+.hm3{
+    position: absolute;
+    width: 259px;
+    height: 50px;
+    left: 660px;
+    top: 3430px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #000000;
+    
+}
+.mtn3{
+    position: absolute;
+    width: 259px;
+    height: 50px;
+    left: 1030px;
+    top: 3430px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #000000;
+}
+.bidv h4{
+    position: absolute;
+width: 429px;
+height: 44px;
+left: 191px;
+top: 3710px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+}
+.bidvimg img{
+    position: absolute;
+width: 303px;
+height: 184px;
+left: 217px;
+top: 3770px;
+}
+.hmbidv{
+    position: absolute;
+    width: 129px;
+    height: 39px;
+    left: 652px;
+    top: 3750px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    
+    
+    color: #000000;
+}
+.mtnbidv{
+    position: absolute;
+    width: 129px;
+    height: 39px;
+    left: 1030px;
+    top: 3750px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    
+    
+    color: #000000;
+}
+.hm4{
+    position: absolute;
+    width: 289px;
+    height: 39px;
+    left: 652px;
+    top: 3870px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    
+    
+    color: #000000;
+}
+.mtn4{
+    position: absolute;
+    width: 129px;
+    height: 39px;
+    left: 1040px;
+    top: 3870px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    
+    
+    color: #000000;
+}.vtb h4{
+    position: absolute;
+width: 632px;
+height: 44px;
+left: 200px;
+top: 4160px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+
+}
+.vtbimg img{
+    position: absolute;
+width: 303px;
+height: 184px;
+left: 228px;
+top: 4250px;
+
+}
+.hmvtb{
+    position: absolute;
+    width: 129px;
+    height: 39px;
+    left: 652px;
+    top: 4230px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    
+    
+    color: #000000;
+}
+.mtnvtb{
+    position: absolute;
+    width: 129px;
+    height: 39px;
+    left: 1030px;
+    top: 4230px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    
+    
+    color: #000000;
+}
+.hm5{
+    position: absolute;
+    width: 260px;
+    height: 39px;
+    left: 652px;
+    top: 4330px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    
+    
+    color: #000000;
+}
+.mtn5{
+    position: absolute;
+    width: 129px;
+    height: 39px;
+    left: 1040px;
+    top: 4330px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    
+    
+    color: #000000;
+}
+.vp h4{
+    position: absolute;
+width: 528px;
+height: 44px;
+left: 202px;
+top: 4645px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+
+}
+.vpimg img{
+    position: absolute;
+width: 303px;
+height: 184px;
+left: 228px;
+top: 4730px;
+
+}
+.hmvp{
+    position: absolute;
+    width: 129px;
+    height: 39px;
+    left: 652px;
+    top: 4725px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    
+    
+    color: #000000;
+}
+.mtnvp{
+    position: absolute;
+    width: 129px;
+    height: 39px;
+    left: 1030px;
+    top: 4725px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #000000;
+}
+.hm6{
+    position: absolute;
+    width: 260px;
+    height: 39px;
+    left: 652px;
+    top: 4820px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    
+    
+    color: #000000;
+}
+.mtn6{
+    position: absolute;
+    width: 129px;
+    height: 39px;
+    left: 1040px;
+    top: 4820px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    
+    
+    color: #000000;
+}
+footer{
+    position: absolute;
+width: 1440px;
+height: 382px;
+left: 0px;
+top: 5100px;
+background: #AFFFBC;
+}
+
+.s1 img{
+
+    position: absolute;
+    top:30px;
+width: 70px;
+height: 70px;
+left: 190px;
+}
+.s1 p{
+position: absolute;
+display: flex;
+left: 190px;
+width: 340px;
+top: 135px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+
+color: #000000;
+
+}
+.s2 img{
+    position: absolute;
+width: 70px;
+height: 70px;
+left: 190px;
+top: 250px;
+}
+.s22 p{
+    position: absolute;
+width: 313px;
+height: 29px;
+left: 629px;
+top: 30px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+
+color: #197710;
+}
+.s3 p{
+    position: absolute;
+width: 299px;
+height: 245px;
+left: 629px;
+top: 98px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+
+color: #000000;
+
+}
+.s4 p{
+    position: absolute;
+    width: 299px;
+    height: 245px;
+    left: 629px;
+    top: 153px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #000000;
+    
+}
+.s5 p{
+    position: absolute;
+    width: 299px;
+    height: 245px;
+    left: 629px;
+    top: 248px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #000000;
+    
+}
+
+.s6 p{
+    position: absolute;
+    width: 180px;
+    height: 30px;
+    left: 629px;
+    top: 308px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #000000;
+    
+}
+.s7 p{
+    position: absolute;
+    width: 105px;
+    height: 33px;
+    left: 1000px;
+    top: 98px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #000000;
+    
+}
+.s8 p{
+    position: absolute;
+    width: 105px;
+    height: 33px;
+    left: 1000px;
+    top: 171px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #000000;
+    
+}
+.s9 p{
+    position: absolute;
+width: 298px;
+height: 71px;
+left: 1000px;
+top: 250px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+
+color: #000000;
+
+}
